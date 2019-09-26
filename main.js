@@ -51,7 +51,7 @@ function initials(str) {
 // }
 
 function yeller(str) {
-  // return capitalize(str) + '!!!';
+  // return capitalize(str) + '!!!'; (worked but not nice)
   const capitalized = capitalize(str);
   const first = exclaim(capitalized);
   const second = exclaim(first);
@@ -59,6 +59,12 @@ function yeller(str) {
   return third;
 
 }
+
+// function yeller(str) {
+//   return capitalize(exclaim(exclaim(exclaim(str))));
+// }
+
+
 
 
 module.exports = {
