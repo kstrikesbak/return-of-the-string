@@ -20,14 +20,22 @@ function lastCharacter(str) {
 
 }
 
-function oneCharacter(str) {
-  return str[8];
+// function oneCharacter(str) {
+//   return str[8];
+// }
+
+function oneCharacter(str, i) {
+  return str[i];
 }
 
-function twoCharacters(str) {
-  // return str[str.length -3] + str[str.length -12];
-  const answer = str[2] + str[11];
-  return answer;
+// function twoCharacters(str) {
+//   // return str[str.length -3] + str[str.length -12]; (didn't work)
+//   const answer = str[2] + str[11];
+//   return answer;
+// }
+
+function twoCharacters(str,index1,index2) {
+  return answer = str[index1] + str[index2];
 }
 
 function initials(str) {
