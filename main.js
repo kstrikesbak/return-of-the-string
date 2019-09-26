@@ -39,9 +39,16 @@ function twoCharacters(str,index1,index2) {
 }
 
 function initials(str) {
-  // return str[0] + '.' + str[7] + '.';
+  // return str[0] + '.' + str[7] + '.'; (works for only the example)
   return firstCharacter(str) + '.' + str[str.indexOf(' ')+1] + '.';
 }
+
+// function initials(str) {
+//   const firstInitial = firstCharacter(str);
+//   const spaceIndex = str.indexOf(' ');
+//   const secondInitial = str[spaceIndex+1];
+//   return firstInitial + '.' + secondInitial + '.'
+// }
 
 function yeller(str) {
   // return capitalize(str) + '!!!';
