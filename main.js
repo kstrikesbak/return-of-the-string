@@ -12,6 +12,12 @@ function firstCharacter(str) {
 
 function lastCharacter(str) {
   return str[str.length -1];
+  // OR
+  // const lastIndex =str.length -1;
+  // const lastCharacter=str[lastIndex];
+  // return lastCharacter;
+
+
 }
 
 function oneCharacter(str) {
